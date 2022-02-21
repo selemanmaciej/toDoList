@@ -1,0 +1,17 @@
+{
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": false,
+        "step_definitions": "cypress/support/"
+    },
+    "name": "todolist",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "cy:run": "cypress run",
+        "cy:open": "cypress open",
+        "cy:run:firefox": "cypress run --browser firefox",
+        "cy:run:chrome": "cypress run --browser chrome",
+        "cy:run:electron": "cypress run --browser electron"
+    },
+    "author": "Maciej Seleman"
+}

@@ -1,0 +1,10 @@
+{
+    "testFiles": [
+        "**/*.{feature,features}"
+    ],
+    "viewportWidth": 1920,
+    "viewportHeight": 1180,
+    "env": {
+        "listUrl": "https://todomvc.com/examples/vanillajs/"
+    }
+}
